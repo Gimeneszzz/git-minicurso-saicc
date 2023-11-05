@@ -11,6 +11,7 @@ import VictorFreitasProfile from './pages/profiles/VictorFreitasProfile';
 import BrenoProfile from './pages/profiles/BrenoProfile';
 import RyanProfile from './pages/profiles/RyanProfile';
 import ViniProfile from './pages/profiles/ViniProfile';
+import GustavoProfile from './pages/profiles/GustavoProfile';
 
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'));
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/vini" element={<ViniProfile/>}/>
             <Route path="/breno" element={<BrenoProfile/>}/>
             <Route path="/victoraury" element={<VictorFreitasProfile/>}/>
+            <Route path="/gustavo" element={<GustavoProfile/>}/>
 
 
           </Route>
